@@ -1,0 +1,50 @@
+name: salmon_rna_seq_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - r-base=4.4.3
+  # Bioinformatics Tools
+  - fastp
+  - gffcompare
+  - gffread
+  - subread
+  - bowtie2
+  - hisat2
+  - samtools
+  - star
+  - stringtie
+  - salmon
+  - cutadapt
+  - umi_tools
+  # Bioconductor Packages
+  - bioconductor-deseq2
+  - bioconductor-tximport
+  - bioconductor-apeglm
+  - bioconductor-summarizedexperiment
+  - bioconductor-genomicranges
+  - bioconductor-biocgenerics
+  - bioconductor-biobase
+  # R Libraries
+  - r-ggplot2
+  - r-pheatmap
+  - r-ggrepel
+  - r-data.table
+  - r-rcpp
+  # System/Dev Utils
+  - jq
+  - yq
+  - pigz
+  - curl
+  - openssl
+  - pip:
+    # Add any pip-specific packages here if needed
