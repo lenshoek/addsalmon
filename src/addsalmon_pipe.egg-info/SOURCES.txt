@@ -1,0 +1,16 @@
+README.md
+src/addsalmon_pipe/__init__.py
+src/addsalmon_pipe/cli.py
+src/addsalmon_pipe/core.py
+src/addsalmon_pipe.egg-info/PKG-INFO
+src/addsalmon_pipe.egg-info/SOURCES.txt
+src/addsalmon_pipe.egg-info/dependency_links.txt
+src/addsalmon_pipe.egg-info/entry_points.txt
+src/addsalmon_pipe.egg-info/requires.txt
+src/addsalmon_pipe.egg-info/top_level.txt
+src/addsalmon_pipe/analysis/__init__.py
+src/addsalmon_pipe/analysis/differential.py
+src/addsalmon_pipe/analysis/plotting.py
+src/addsalmon_pipe/branches/__init__.py
+src/addsalmon_pipe/branches/alignment.py
+src/addsalmon_pipe/branches/salmon.py

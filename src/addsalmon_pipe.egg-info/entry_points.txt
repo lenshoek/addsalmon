@@ -1,0 +1,3 @@
+[console_scripts]
+addsalmon-pipe = addsalmon_pipe.cli:main
+
